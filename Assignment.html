@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Assignment.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <div class="home-content">
+            <img src="./aparna_photo1.jpg" alt="Your Photo" class="home-photo">
+            <p>
+                An enthusiastic student with a keen interest in programming and problem-solving. I enjoy tackling new challenges, whether it’s through coding or working on puzzles. I’m committed to doing my best in everything I take on and always approach tasks with sincerity and dedication. In my free time, I like to read books and listen to music, which helps me stay balanced.
+            </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <section id="education">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Cochin University of Science and Technology</strong> - Pursuing MCA (2023-2025), CGPA 9.08 (Sem 1)</li>
+                <li><strong>H.H.M.SP.B.N.S.S College for Women</strong> - B.Sc Mathematics (2019-2022), Affiliated to Kerala University, CCPA 8.95</li>
+                <li><strong>Abraham Memorial Higher Secondary School</strong> - Bio Maths(2017-2019), HSE, Percentage 96.5</li>
+                <li><strong>Army Public School, Pangode</strong> - CBSE(2017), CGPA 10</li>
+            </ul>
+        </section>
+        <section id="technical skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>MS Office</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Java, Python, and C Programming</li>
+                <li>Data Science</li>
+            </ul>
+        </section>
+        <section id="soft skills">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h3>Languages</h3>
+            <ul>
+                <li>English</li>
+                <li>Malayalam</li>
+                <li>Hindi</li>
+            </ul>
+        </section>
+        <section id="internship">
+            <h3>Internships</h3>
+            <ul>
+                <li><strong>ACMEGRADE</strong> - Data Science Intern, Feb 2024</li>
+                <li><strong>IBM</strong> - AI-ML Internship, June 2024</li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Wellness Whisper</strong>: A chatbot for Anxiety and Depression Consultation using IBM Watsonx Assistant<br>
+            <a href="https://cloud-object-storage-cos-static-web-hosting-v4p.s3.jp-tok.cloud-object-storage.appdomain.cloud/adam2024.html">Live Link</a></li>
+            
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <div id="thankYouMessage">Thank you for your message!</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 K Aparna Lal. All rights reserved.</p>
+    </footer>
+
+    <script src="Assignment.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
